@@ -18,10 +18,15 @@ public class MainBD {
         System.out.println("Toate masinile din db");
         for(Car car:carRepo.findAll())
             System.out.println(car);
+        Integer id = 4;
+        Car updatedCar = new Car("Tesla", "Model 3", 2020);
+        carRepo.update(id, updatedCar);
+        System.out.println("Toate masinile din db dupa update");
+        for(Car car:carRepo.findAll())
+            System.out.println(car);
        String manufacturer="Tesla";
         System.out.println("Masinile produse de "+manufacturer);
         for(Car car:carRepo.findByManufacturer(manufacturer))
             System.out.println(car);
-
     }
 }

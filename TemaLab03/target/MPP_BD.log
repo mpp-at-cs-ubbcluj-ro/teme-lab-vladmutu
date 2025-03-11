@@ -15,3 +15,63 @@
 11 Mar 2025 18:42:15,701 TRACE ro.mpp2024.CarsDBRepository 26 findByManufacturer - Enter finding task with manufacturerN Tesla 
 11 Mar 2025 18:42:15,701 TRACE ro.mpp2024.JdbcUtils 48 getConnection - Enter
 11 Mar 2025 18:42:15,701 TRACE ro.mpp2024.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+11 Mar 2025 18:50:19,826 INFO  ro.mpp2024.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB-FMI\UBB-FMI\An II\Sem II\MPP\Laborator\Lab01\cars.db} 
+11 Mar 2025 18:50:19,835 TRACE ro.mpp2024.CarsDBRepository 72 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 18:50:19,835 TRACE ro.mpp2024.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 18:50:19,835 TRACE ro.mpp2024.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 18:50:19,835 INFO  ro.mpp2024.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB-FMI\UBB-FMI\An II\Sem II\MPP\Laborator\Lab01\cars.db
+11 Mar 2025 18:50:19,842 INFO  ro.mpp2024.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 18:50:19,842 INFO  ro.mpp2024.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 18:50:20,081 TRACE ro.mpp2024.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@659499f1)
+11 Mar 2025 18:50:20,096 TRACE ro.mpp2024.CarsDBRepository 79 add - Saved 1 instances
+11 Mar 2025 18:50:20,096 TRACE ro.mpp2024.CarsDBRepository 84 add - Exit
+11 Mar 2025 18:50:20,096 TRACE ro.mpp2024.CarsDBRepository 107 findAll - Enter
+11 Mar 2025 18:50:20,096 TRACE ro.mpp2024.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 18:50:20,096 TRACE ro.mpp2024.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@659499f1)
+11 Mar 2025 18:50:20,096 TRACE ro.mpp2024.CarsDBRepository 126 findAll - Exit with([Id=1 Dacia Sandero 2019, Id=2 Skoda Octavia 2020, Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2019])
+11 Mar 2025 18:50:20,096 TRACE ro.mpp2024.CarsDBRepository 26 findByManufacturer - Enter finding task with manufacturerN Tesla 
+11 Mar 2025 18:50:20,096 TRACE ro.mpp2024.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 18:50:20,096 TRACE ro.mpp2024.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@659499f1)
+11 Mar 2025 18:51:12,200 INFO  ro.mpp2024.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB-FMI\UBB-FMI\An II\Sem II\MPP\Laborator\Lab01\cars.db} 
+11 Mar 2025 18:51:12,206 TRACE ro.mpp2024.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 18:51:12,206 TRACE ro.mpp2024.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 18:51:12,206 TRACE ro.mpp2024.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 18:51:12,206 INFO  ro.mpp2024.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB-FMI\UBB-FMI\An II\Sem II\MPP\Laborator\Lab01\cars.db
+11 Mar 2025 18:51:12,206 INFO  ro.mpp2024.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 18:51:12,206 INFO  ro.mpp2024.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 18:51:12,460 TRACE ro.mpp2024.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49049a04)
+11 Mar 2025 18:51:12,476 TRACE ro.mpp2024.CarsDBRepository 85 add - Saved 1 instances
+11 Mar 2025 18:51:12,476 TRACE ro.mpp2024.CarsDBRepository 90 add - Exit
+11 Mar 2025 18:51:12,476 TRACE ro.mpp2024.CarsDBRepository 113 findAll - Enter
+11 Mar 2025 18:51:12,476 TRACE ro.mpp2024.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 18:51:12,476 TRACE ro.mpp2024.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49049a04)
+11 Mar 2025 18:51:12,476 TRACE ro.mpp2024.CarsDBRepository 132 findAll - Exit with([Id=1 Dacia Sandero 2019, Id=2 Skoda Octavia 2020, Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2019, Id=5 Tesla Model S 2019])
+11 Mar 2025 18:51:12,476 TRACE ro.mpp2024.CarsDBRepository 26 findByManufacturer - Enter finding task with manufacturerN Tesla 
+11 Mar 2025 18:51:12,476 TRACE ro.mpp2024.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 18:51:12,476 TRACE ro.mpp2024.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49049a04)
+11 Mar 2025 18:54:12,894 INFO  ro.mpp2024.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB-FMI\UBB-FMI\An II\Sem II\MPP\Laborator\Lab01\cars.db} 
+11 Mar 2025 18:54:12,906 TRACE ro.mpp2024.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 18:54:12,906 TRACE ro.mpp2024.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 18:54:12,907 TRACE ro.mpp2024.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 18:54:12,907 INFO  ro.mpp2024.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB-FMI\UBB-FMI\An II\Sem II\MPP\Laborator\Lab01\cars.db
+11 Mar 2025 18:54:12,907 INFO  ro.mpp2024.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 18:54:12,911 INFO  ro.mpp2024.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 18:54:13,159 TRACE ro.mpp2024.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@659499f1)
+11 Mar 2025 18:54:13,170 TRACE ro.mpp2024.CarsDBRepository 85 add - Saved 1 instances
+11 Mar 2025 18:54:13,171 TRACE ro.mpp2024.CarsDBRepository 90 add - Exit
+11 Mar 2025 18:54:13,171 TRACE ro.mpp2024.CarsDBRepository 113 findAll - Enter
+11 Mar 2025 18:54:13,171 TRACE ro.mpp2024.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 18:54:13,171 TRACE ro.mpp2024.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@659499f1)
+11 Mar 2025 18:54:13,174 TRACE ro.mpp2024.CarsDBRepository 132 findAll - Exit with([Id=1 Dacia Sandero 2019, Id=2 Skoda Octavia 2020, Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2019, Id=5 Tesla Model S 2019, Id=6 Tesla Model S 2019])
+11 Mar 2025 18:54:13,174 TRACE ro.mpp2024.CarsDBRepository 95 update - Enter updating task with id 4 
+11 Mar 2025 18:54:13,174 TRACE ro.mpp2024.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 18:54:13,175 TRACE ro.mpp2024.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@659499f1)
+11 Mar 2025 18:54:13,181 TRACE ro.mpp2024.CarsDBRepository 103 update - Updated 1 instances
+11 Mar 2025 18:54:13,181 TRACE ro.mpp2024.CarsDBRepository 108 update - Exit
+11 Mar 2025 18:54:13,182 TRACE ro.mpp2024.CarsDBRepository 113 findAll - Enter
+11 Mar 2025 18:54:13,182 TRACE ro.mpp2024.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 18:54:13,182 TRACE ro.mpp2024.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@659499f1)
+11 Mar 2025 18:54:13,182 TRACE ro.mpp2024.CarsDBRepository 132 findAll - Exit with([Id=1 Dacia Sandero 2019, Id=2 Skoda Octavia 2020, Id=3 Tesla Model S 2019, Id=4 Tesla Model 3 2020, Id=5 Tesla Model S 2019, Id=6 Tesla Model S 2019])
+11 Mar 2025 18:54:13,183 TRACE ro.mpp2024.CarsDBRepository 26 findByManufacturer - Enter finding task with manufacturerN Tesla 
+11 Mar 2025 18:54:13,183 TRACE ro.mpp2024.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 18:54:13,183 TRACE ro.mpp2024.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@659499f1)

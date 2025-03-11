@@ -34,6 +34,9 @@ public class CarsDBRepository implements CarRepository{
                     String manufacturer = result.getString("manufacturer");
                     String model = result.getString("model");
                     int year = result.getInt("year");
+                    Car car = new Car(manufacturer, model, year);
+                    car.setId(id);
+                    cars.add(car);
                 }
             }
         }catch (SQLException ex) {
@@ -57,6 +60,9 @@ public class CarsDBRepository implements CarRepository{
                     String manufacturer = result.getString("manufacturer");
                     String model = result.getString("model");
                     int year = result.getInt("year");
+                    Car car = new Car(manufacturer, model, year);
+                    car.setId(id);
+                    cars.add(car);
                 }
             }
         }catch (SQLException ex) {
