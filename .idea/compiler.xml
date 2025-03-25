@@ -11,6 +11,9 @@
       <module name="TemaLab03" target="23" />
       <module name="TemaLab03.main" target="23" />
       <module name="TemaLab03.test" target="23" />
+      <module name="TemaLab4" target="23" />
+      <module name="TemaLab4.main" target="23" />
+      <module name="TemaLab4.test" target="23" />
     </bytecodeTargetLevel>
   </component>
 </project>
